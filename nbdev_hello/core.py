@@ -4,4 +4,4 @@
 __all__ = ['foo']
 
 # %% ../nbs/00_core.ipynb 3
-def foo(): return 1
+def foo(): pass
