@@ -1,5 +1,5 @@
 repos:
-- repo: https://github.com/anasbraj/nbdev-hello.git
+- repo: https://github.com/anasbraj/nbdev-hello
   hooks:
   - id: nbdev_clean
   - id: nbdev_export
