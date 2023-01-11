@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://anasbraj.github.io',
                 'git_url': 'https://github.com/anasbraj/nbdev-hello',
                 'lib_path': 'nbdev_hello'},
-  'syms': {'nbdev_hello.core': {'nbdev_hello.core.foo': ('core.html#foo', 'nbdev_hello/core.py')}}}
+  'syms': { 'nbdev_hello.book': { 'nbdev_hello.book.Book': ('book.html#book', 'nbdev_hello/book.py'),
+                                  'nbdev_hello.book.Book._init': ('book.html#book._init', 'nbdev_hello/book.py'),
+                                  'nbdev_hello.book.Book._str_': ('book.html#book._str_', 'nbdev_hello/book.py')},
+            'nbdev_hello.core': {'nbdev_hello.core.foo': ('core.html#foo', 'nbdev_hello/core.py')}}}
