@@ -15,7 +15,7 @@ class Book():
         self.author = author
         
     def _str_():
-        return f"'{title}', by {author}"
+        return f"'{title}', by {author}..."
     
 
 # %% ../nbs/01_book.ipynb 4
