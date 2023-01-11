@@ -4,19 +4,17 @@
 __all__ = ['Book']
 
 # %% ../nbs/01_book.ipynb 3
-class Book():
+class Book:
     """Class representation of book"""
     
-    def _init(
+    def __init__(
+        self,
         title, # title of the book
         author, # book's author
     ):
         self.title = title
         self.author = author
         
-    def _str_():
-        return f"'{title}', by {author}"
+    def __str__(self):
+        return f"'{title}', by {author}!"
     
-
-# %% ../nbs/01_book.ipynb 4
-print("change")
