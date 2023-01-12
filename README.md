@@ -66,7 +66,7 @@ plt.show()
 
 ![](index_files/figure-commonmark/cell-7-output-1.png)
 
-\#hide \## This is a new
+%nbdev_hide \## This is a new
 sectionf98f9f00897fa17180b902945abda87d77153938f98f9f00897fa17180b902945abda87d77153938
 
 ## My Book class
