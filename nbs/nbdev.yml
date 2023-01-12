@@ -1,9 +1,0 @@
-project:
-  output-dir: _docs
-
-website:
-  title: "nbdev-hello"
-  site-url: "https://anasbraj.github.io/nbdev-hello"
-  description: "New NEW repo for nbdev"
-  repo-branch: main
-  repo-url: "https://github.com/anasbraj/nbdev-hello"
