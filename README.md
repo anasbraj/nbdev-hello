@@ -66,28 +66,8 @@ plt.show()
 
 ![](index_files/figure-commonmark/cell-7-output-1.png)
 
-## This is a new sectionf98f9f00897fa17180b902945abda87d77153938f98f9f00897fa17180b902945abda87d77153938
-
-``` python
-print("Further testing of git diffs and stuff ...")
-```
-
-    Further testing of git diffs and stuff ...
-
-``` python
-sum = 0
-```
-
-``` python
-for i in range(5):
-    sum += 1
-```
-
-``` python
-sum
-```
-
-    5
+\#hide \## This is a new
+sectionf98f9f00897fa17180b902945abda87d77153938f98f9f00897fa17180b902945abda87d77153938
 
 ## My Book class
 
@@ -111,26 +91,3 @@ Class representation of book
 |--------|-------------------|
 | title  | title of the book |
 | author | book’s author     |
-
-    Signature:
-    show_doc(
-        sym,
-        renderer=None,
-        name: 'str | None' = None,
-        title_level: 'int' = 3,
-    )
-    Source:   
-    def show_doc(sym,  # Symbol to document
-                 renderer=None,  # Optional renderer (defaults to markdown)
-                 name:str|None=None,  # Optionally override displayed name of `sym`
-                 title_level:int=3):  # Heading level to use for symbol name
-        "Show signature and docstring for `sym`"
-        if renderer is None: renderer = get_config().get('renderer', None)
-        if renderer is None: renderer=BasicMarkdownRenderer
-        elif isinstance(renderer,str):
-            p,m = renderer.rsplit('.', 1)
-            renderer = getattr(import_module(p), m)
-        if isinstance(sym, TypeDispatch): pass
-        else:return renderer(sym or show_doc, name=name, title_level=title_level)
-    File:      c:\users\jagod\miniconda3\envs\new1nbdev\lib\site-packages\nbdev\showdoc.py
-    Type:      function
