@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello",
+    "section": "",
+    "text": "from nbdev_hello.core import *\nfrom nbdev_hello.book import *\nThis file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-hello",
+    "section": "Install",
+    "text": "Install\npip install nbdev_hello"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "index.html#addition-to-see-cleaning-for-git",
+    "href": "index.html#addition-to-see-cleaning-for-git",
+    "title": "nbdev-hello",
+    "section": "Addition to see cleaning for git",
+    "text": "Addition to see cleaning for git\n\nprint(\"New line above original line!\")\n\nNew line above original line!\n\n\n\nprint(\"This is a new line!\")\n\nThis is a new line!"
+  },
+  {
+    "objectID": "index.html#test-git-diffs-for-plots",
+    "href": "index.html#test-git-diffs-for-plots",
+    "title": "nbdev-hello",
+    "section": "Test git diffs for plots",
+    "text": "Test git diffs for plots\n\nimport matplotlib.pyplot as plt\n\n\nfig, ax = plt.subplots()\n\nfruits = ['apple', 'blueberry', 'cherry', 'orange']\ncounts = [40, 100, 30, 55]\nbar_labels = ['red', 'blue', '_red', 'orange']\nbar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange']\n\nax.bar(fruits, counts, label=bar_labels, color=bar_colors)\n\nax.set_ylabel('fruit supply')\nax.set_title('Fruit supply by kind and color')\nax.legend(title='Fruit color')\n\nplt.show()\n\n\n\n\n%nbdev_hide ## This is a new sectionf98f9f00897fa17180b902945abda87d77153938f98f9f00897fa17180b902945abda87d77153938"
+  },
+  {
+    "objectID": "index.html#my-book-class",
+    "href": "index.html#my-book-class",
+    "title": "nbdev-hello",
+    "section": "My Book class",
+    "text": "My Book class\n\nb = Book(\"naslov\", \"avtor\")\n\n\nsource\n\nBook\n\n Book (title, author)\n\nClass representation of book\n\n\n\n\nDetails\n\n\n\n\ntitle\ntitle of the book\n\n\nauthor\nbook’s author"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "book.html",
+    "href": "book.html",
+    "title": "Book",
+    "section": "",
+    "text": "source\n\nBook\n\n Book (title, author)\n\nClass representation of book\n\n\n\n\nDetails\n\n\n\n\ntitle\ntitle of the book\n\n\nauthor\nbook’s author"
+  }
+]
